@@ -1,0 +1,7 @@
+.centrar-contenido {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Esto ajusta la altura según el tamaño de la ventana del navegador */
+}
