@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\reservaController;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\reservaController;
+use App\Models\reservas;
 
-class reservaController extends Controller
+class ReservaController extends Controller
 {
 
 }
