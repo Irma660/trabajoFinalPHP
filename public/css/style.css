@@ -1,3 +1,7 @@
+body {
+    background-color:#fb0b18; /* Ejemplo de un color naranja */
+}
+
 .centrar-contenido {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
