@@ -1,0 +1,8 @@
+.centrar-contenido {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 15vh; /* Establece la altura del contenedor al 100% del alto de la ventana del navegador */
+    max-width: 100%; /* Opcional: ajusta el ancho máximo de la imagen */
+    max-height: 100%; /* Opcional: ajusta la altura máxima de la imagen */
+}
