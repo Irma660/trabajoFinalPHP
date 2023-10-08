@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-    height: 15vh; /* Establece la altura del contenedor al 100% del alto de la ventana del navegador */
+    height: 25vh; /* Establece la altura del contenedor al 100% del alto de la ventana del navegador */
     max-width: 100%; /* Opcional: ajusta el ancho máximo de la imagen */
     max-height: 100%; /* Opcional: ajusta la altura máxima de la imagen */
 }
@@ -83,4 +83,10 @@ button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+}
+.carousel-container-wrapper {
+    background-color: white; /* Fondo blanco */
+    padding: 20px; /* Espacio alrededor del carrusel */
+    border-radius: 8px; /* Borde redondeado (ajusta según sea necesario) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para el contenedor (ajusta según sea necesario) */
 }

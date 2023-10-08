@@ -13,11 +13,12 @@
 <body>
  
 <div class="centrar-contenido">
-<img src="{{ asset('img/logo.jpg') }}" width="231" height="126">
+<img src="{{ asset('img/logo.jpg') }}" width="331" height="226">
 </div>
 <div class="limit">
             <h2>Conoce los mejores lugares turísticos de Huánuco</h2>
-        
+
+            <div class="carousel-container-wrapper">
             <div class="carousel-container">
         <div class="carousel">
             <div class="carousel-slide">
@@ -38,6 +39,7 @@
         </div>
         <button id="prevBtn">Anterior</button>
         <button id="nextBtn">Siguiente</button>
+    </div>
     </div>
     <script>
         const carousel = document.querySelector('.carousel');
