@@ -29,24 +29,26 @@ body {
 
 /* Estilos para el contenedor del carrusel */
 .carousel-container {
-    width: 80%; /* Ancho del carrusel */
-    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    max-width: 800px; /* Ancho del carrusel */
     overflow: hidden; /* Oculta el desbordamiento de contenido */
-    position: relative; /* Establece la posición relativa */
+    margin: 0 auto;
+    position: relative; /* Agrega posición relativa al contenedor */
+}
+.carousel {
+    display: flex; /* Muestra las imágenes en una línea */
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
 }
 
 /* Estilos para las diapositivas del carrusel */
 .carousel-slide {
-    float: left; /* Hace que las diapositivas se coloquen una al lado de la otra */
-    width: 100%; /* Ancho de cada diapositiva */
-    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+    width: 800px; /* Ancho de cada diapositiva */
+    height: auto;
+    float: left; /* Hace que las imágenes se coloquen una al lado de la otra */
+    flex: 0 0 800px; /* Establece el ancho fijo para cada imagen */
 }
 
 /* Estilos para las imágenes en las diapositivas */
-.carousel-slide img {
-    width: 100%; /* Ancho de la imagen al 100% de su contenedor */
-    height: auto; /* Altura automática para mantener la proporción */
-}
+
 
 /* Estilos para los botones de navegación */
 #prevBtn,
@@ -68,4 +70,11 @@ body {
 
 #nextBtn {
     right: 10px;
+}
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
