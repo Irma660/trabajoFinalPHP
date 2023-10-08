@@ -50,6 +50,9 @@
         <button id="nextBtn">Siguiente</button>
     </div>
     </div>
+    <div class="discover-more">
+    <a href="{{ route('ver-lugares') }}" target="_blank">Ver Más Lugares</a>
+    </div>
     <script>
         const carousel = document.querySelector('.carousel');
         const slides = document.querySelectorAll('.carousel-slide');

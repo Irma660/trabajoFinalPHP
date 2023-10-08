@@ -15,6 +15,11 @@ body {
 /* Estilo para el contenedor principal */
 .limit {
     text-align: center; /* Centra el contenido horizontalmente */
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Esto centra verticalmente en la ventana del navegador
     padding: 20px; /* Agrega un espacio interno alrededor del contenido */
     max-width: 800px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centra el contenedor en la página */
@@ -44,6 +49,9 @@ body {
 .carousel-slide {
     width: 800px; /* Ancho de cada diapositiva */
     height: auto;
+    display: flex; /* Utiliza flexbox para centrar contenido verticalmente */
+    justify-content: center; /* Centra horizontalmente las imágenes */
+    align-items: center; /* Centra verticalmente las imágenes */
     float: left; /* Hace que las imágenes se coloquen una al lado de la otra */
     flex: 0 0 800px; /* Establece el ancho fijo para cada imagen */
 }
@@ -89,4 +97,23 @@ button {
     padding: 20px; /* Espacio alrededor del carrusel */
     border-radius: 8px; /* Borde redondeado (ajusta según sea necesario) */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para el contenedor (ajusta según sea necesario) */
+}
+.discover-more {
+    text-align: center;
+    margin-top: 20px; /* Espacio entre el carrusel y el botón */
+}
+
+.discover-more a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.discover-more a:hover {
+    background-color: #5bd7ec; /* Cambia el color al pasar el cursor */
 }
