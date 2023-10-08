@@ -39,12 +39,18 @@ body {
     transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
 }
 
+
 /* Estilos para las diapositivas del carrusel */
 .carousel-slide {
     width: 800px; /* Ancho de cada diapositiva */
     height: auto;
     float: left; /* Hace que las imágenes se coloquen una al lado de la otra */
     flex: 0 0 800px; /* Establece el ancho fijo para cada imagen */
+}
+.carousel-slide img {
+    max-width: 100%; /* Ancho máximo del 100% para que las imágenes se ajusten al contenedor */
+    max-height: 500px; /* Altura máxima de 200px (ajusta este valor según tus necesidades) */
+    height: auto; /* Altura automática para mantener la proporción */
 }
 
 /* Estilos para las imágenes en las diapositivas */
