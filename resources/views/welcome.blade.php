@@ -82,6 +82,20 @@
 
     showSlide(currentIndex);
     </script>
+<div class="lugar-container">
+<div class="lugar">
+        <img src="{{ asset('img/hco.jpg') }}" alt="La plaza de armas de la ciudad Huánuco">
+        <h2>Huánuco</h2>
+        <p>La provincia de Huánuco se encuentra situada en la parte central del departamento homólogo, bajo la administración del Gobierno Regional de Huánuco. Limita por el norte con las provincias de Leoncio Prado y Dos de Mayo, por el este con Pachitea, por el sur con Ambo y por el oeste con Lauricocha y Yarowilca...</p>
+    </div>
+
+    <div class="lugar">
+        <img src="{{ asset('img/tingo.jpg') }}" alt="Plaza de la ciudad de Tingo María">
+        <h2>Tingo María</h2>
+        <p>Tingo María es una ciudad peruana capital del distrito de Rupa-Rupa y a la vez de la provincia de Leoncio Prado en el departamento de Huánuco.</p>
+        <p>Tingo María se encuentra ubicado en la selva alta por lo que es apodada la "Puerta de entrada a la Amazonía Peruana". Su entorno destaca los paisajes cubiertos de bosques, cascadas, cuevas y diversidad biológica. </p>
+    </div>
+    </div>
 <div class="paquete">
         <img src="imagen_paquete1.jpg" alt="Paquete 1">
         <h2>Paquete Turístico 1</h2>

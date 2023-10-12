@@ -136,4 +136,25 @@ button {
         .detalle {
             margin-top: 10px;
         }
+        .lugar-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .lugar {
+            width: 48%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+        }
 
+        .lugar img {
+            width: 100%; /* Ajusta el ancho de todas las imágenes al 100% del contenedor */
+            height: 200px; /* El alto se ajustará automáticamente para mantener la proporción */
+            object-fit: cover;
+        }
+        .lugar p {
+            text-align: justify; /* Alinea el texto justificado */
+        }
