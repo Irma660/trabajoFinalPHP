@@ -117,3 +117,23 @@ button {
 .discover-more a:hover {
     background-color: #5bd7ec; /* Cambia el color al pasar el cursor */
 }
+
+        .paquete {
+            width: 30%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .paquete img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .detalle {
+            margin-top: 10px;
+        }
+

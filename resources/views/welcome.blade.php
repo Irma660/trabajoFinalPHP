@@ -82,6 +82,20 @@
 
     showSlide(currentIndex);
     </script>
+<div class="paquete">
+        <img src="imagen_paquete1.jpg" alt="Paquete 1">
+        <h2>Paquete Turístico 1</h2>
+        <div class="detalle">
+            <i class="fas fa-moon"></i> 1 noche
+        </div>
+        <div class="detalle">
+            <i class="fas fa-utensils"></i> Desayuno, Almuerzo y Cena
+        </div>
+        <div class="detalle">
+            <i class="fas fa-car"></i> Pasajes a 3 lugares turísticos
+        </div>
+    </div>
+
      
 </body>
 </html>
