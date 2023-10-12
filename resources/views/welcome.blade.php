@@ -95,6 +95,12 @@
         <p>Tingo María es una ciudad peruana capital del distrito de Rupa-Rupa y a la vez de la provincia de Leoncio Prado en el departamento de Huánuco.</p>
         <p>Tingo María se encuentra ubicado en la selva alta por lo que es apodada la "Puerta de entrada a la Amazonía Peruana". Su entorno destaca los paisajes cubiertos de bosques, cascadas, cuevas y diversidad biológica. </p>
     </div>
+    <div class="lugar">
+        <img src="{{ asset('img/2mayo.jpg') }}" alt="Plaza de la Unión">
+        <h2>Dos de mayo</h2>
+        <p>La provincia de Dos de Mayo es una de las once que conforman el departamento de Huánuco. Limita por el norte con la provincia de Huamalíes; por el sur con la provincia de Lauricocha, la provincia de Yarowilca y la provincia de Huánuco; por el este con la provincia de Leoncio Prado, la provincia de Huánuco y la provincia de Yarowilca, y por el oeste con la provincia de Bolognesi, del departamento de Áncash.</p>
+        <p>Este destino es parte de la historia incaica, que se plasma en un monumento arqueológico impresionante. Además, cuenta con aguas termales con propiedades medicinales. </p>
+    </div>
     </div>
 <div class="paquete">
         <img src="imagen_paquete1.jpg" alt="Paquete 1">
@@ -108,6 +114,9 @@
         <div class="detalle">
             <i class="fas fa-car"></i> Pasajes a 3 lugares turísticos
         </div>
+        <div class="discover-more">
+    <a href="{{ route('RealizarReserva') }}" target="_blank">Reservar</a>
+    </div>
     </div>
 
      

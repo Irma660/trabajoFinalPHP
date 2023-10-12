@@ -19,3 +19,4 @@ Route::get('/reservas', function () {
 });
 
 Route::view('/lugares', 'lugares')->name('DescubrirLugares');
+Route::view('/reservas', 'reservas')->name('RealizarReserva');
