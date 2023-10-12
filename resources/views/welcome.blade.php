@@ -51,7 +51,7 @@
     </div>
     </div>
     <div class="discover-more">
-    <a href="{{ route('ver-lugares') }}" target="_blank">Ver Más Lugares</a>
+    <a href="{{ route('DescubrirLugares') }}" target="_blank">Ver Más Lugares</a>
     </div>
     <script>
         const carousel = document.querySelector('.carousel');
