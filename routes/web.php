@@ -3,7 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CompraController;
 
-Route::post('/comprar', 'CompraController@store')->name('comprar');
+Route::post('/comprar', [CompraController::class, 'store'])->name('comprar.store');
+Route::get('/comprar', [CompraController::class, 'showForm'])->name('comprar.form');
 
 
 Route::get('/', function () {

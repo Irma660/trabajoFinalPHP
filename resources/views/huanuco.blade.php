@@ -202,7 +202,7 @@
                 <h3>Paquete de Aventura</h3>
                 <p>Descubre la belleza natural de Huánuco con nuestro paquete de aventura. Incluye visitas a la Laguna
                     de Los Milagros, el Parque Nacional de Tingo María y emocionantes excursiones. Precio: $300.</p>
-                <a href="{{ route('comprar') }}"  method="POST" class="btn btn-primary buy-button">Comprar</a>
+                <a href="{{ route('comprar.store') }}"  method="POST" class="btn btn-primary buy-button">Comprar</a>
                 @csrf
             </div>
             <div class="package">
