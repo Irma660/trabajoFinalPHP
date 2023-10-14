@@ -98,7 +98,8 @@
             </figure>
             <div class="contenido-card">
                 <h3>Huánuco</h3>
-                <p>La provincia de Huánuco se encuentra situada en la parte central del departamento homólogo, bajo la administración del Gobierno Regional de Huánuco. Limita por el norte con las provincias de Leoncio Prado y Dos de Mayo, por el este con Pachitea, por el sur con Ambo y por el oeste con Lauricocha y Yarowilca...</p>
+                <p>La provincia de Huánuco se encuentra situada en la parte central del departamento de Huánuco. Limita por el norte con las provincias de Leoncio Prado y Dos de Mayo, por el este con Pachitea, por el sur con Ambo y por el oeste con Lauricocha y Yarowilca...</p> 
+                <p>Huánuco también es considerada como la ciudad con el mejor clima del mundo...</p>
                 <a href="#">Leer Más</a>
             </div>
         </div>
@@ -124,32 +125,27 @@
                 <a href="#">Leer Más</a>
             </div>
         </div>
-    </div>
-
-
-
-
-
-
-
-
-
-    <div class="paquete">
-        <img src="imagen_paquete1.jpg" alt="Paquete 1">
-        <h2>Paquete Turístico 1</h2>
-        <div class="detalle">
-            <i class="fas fa-moon"></i> 1 noche
-        </div>
-        <div class="detalle">
-            <i class="fas fa-utensils"></i> Desayuno, Almuerzo y Cena
-        </div>
-        <div class="detalle">
-            <i class="fas fa-car"></i> Pasajes a 3 lugares turísticos
-        </div>
-        <div class="discover-more">
-            <a href="{{ route('RealizarReserva') }}" target="_blank">Reservar</a>
+        <div class="card">
+            <figure>
+                <img src="{{ asset('img/lauricocha.jpg') }}" alt="Laguna">
+            </figure>
+            <div class="contenido-card">
+                <h3>Lauricocha</h3>
+                <p>Este destino es parte de la historia incaica, que se plasma en un monumento arqueológico impresionante. Además, cuenta con aguas termales con propiedades medicinales. </p>
+                <a href="#">Leer Más</a>
+            </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+    
 
 
 </body>
