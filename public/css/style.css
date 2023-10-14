@@ -172,6 +172,7 @@ button {
             transition: all 400ms ease-out;
             cursor: default;
             float: left;
+            margin-top: -60px;
         }
         .card:hover{
             box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
@@ -194,3 +195,99 @@ button {
             color: #6a6a6a;
             font-size: 14px;
         } 
+    .card p {
+        text-align: justify; /* Alinea el texto justificado */
+    }
+    /* Estilos del footer */
+footer {
+    background-color: #d3ee5b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+   }
+   
+   /* Estilos de las redes sociales */
+   .social-media {
+    margin-bottom: 20px;
+   }
+   
+   .social-media a {
+    color: #080303;
+    margin-right: 10px;
+    text-decoration: none;
+   }
+   
+   .social-media a:hover {
+    color: #0e0b0b;
+   }
+   
+   /* Estilos de los enlaces */
+   .links a {
+    color: #080707;
+    margin-right: 10px;
+    text-decoration: none;
+   }
+   
+   .links a:hover {
+    color: #f50808;
+   }
+
+   .containerpq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+   
+   .cardpq {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+   }
+   
+   .cardpq img {
+    max-width: 100%;
+    height: auto;
+   }
+   
+   .cardpq h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+   }
+   
+   .cardpq p {
+    margin-bottom: 20px;
+   }
+   
+   .cardpq a {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-decoration: none;
+   }
+   
+   @media (min-width: 576px) {
+    .cardpq {
+       width: 48%;
+    }
+   }
+   
+   @media (min-width: 768px) {
+    .cardpq {
+       width: 31%;
+    }
+   }
+   
+   @media (min-width: 992px) {
+    .cardpq {
+       width: 22%;
+    }
+   }
+   

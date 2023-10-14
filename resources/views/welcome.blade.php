@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="discover-more">
-            <a href="{{ route('DescubrirLugares') }}" target="_blank">Ver Más Lugares</a>
+        <a href="{{ route('RealizarReserva') }}" target="_blank">Reservar</a>
         </div>
         <script>
             const carousel = document.querySelector('.carousel');
@@ -89,6 +89,8 @@
 
     <div class="title-cards">
         <h2>LOS LUGARES MÁS VISITADOS</h2>
+        <hr>
+        <hr style="border: 2px;"> 
     </div>
     <div class="container-card">
 
@@ -99,8 +101,8 @@
             <div class="contenido-card">
                 <h3>Huánuco</h3>
                 <p>La provincia de Huánuco se encuentra situada en la parte central del departamento de Huánuco. Limita por el norte con las provincias de Leoncio Prado y Dos de Mayo, por el este con Pachitea, por el sur con Ambo y por el oeste con Lauricocha y Yarowilca...</p> 
-                <p>Huánuco también es considerada como la ciudad con el mejor clima del mundo...</p>
-                <a href="#">Leer Más</a>
+                <p>Huánuco también es considerada con el mejor clima del mundo. Posee importantes atractivos turísticos, como nevados, cordilleras, valles y selvas amazónicas. </p>
+                <a href="{{ route('infoHuanuco') }}" target="_blank">Ver paquetes</a>
             </div>
         </div>
         <div class="card">
@@ -111,7 +113,7 @@
                 <h3>Tingo María</h3>
                 <p>Tingo María es una ciudad peruana capital del distrito de Rupa-Rupa y a la vez de la provincia de Leoncio Prado en el departamento de Huánuco.</p>
                 <p>Tingo María se encuentra ubicado en la selva alta por lo que es apodada la "Puerta de entrada a la Amazonía Peruana". Su entorno destaca los paisajes cubiertos de bosques, cascadas, cuevas y diversidad biológica. </p>
-                <a href="#">Leer Más</a>
+                <a href="{{ route('infoTingo') }}" target="_blank">Ver paquetes</a>
             </div>
         </div>
         <div class="card">
@@ -121,8 +123,8 @@
             <div class="contenido-card">
                 <h3>Dos de mayo</h3>
                 <p>La provincia de Dos de Mayo es una de las once que conforman el departamento de Huánuco. Limita por el norte con la provincia de Huamalíes</p>
-                <p>Este destino es parte de la historia incaica, que se plasma en un monumento arqueológico impresionante. Además, cuenta con aguas termales con propiedades medicinales. </p>
-                <a href="#">Leer Más</a>
+                <p>Este destino es parte de la historia incaica, que se plasma en un monumento arqueológico impresionante. Además, cuenta con aguas termales con propiedades medicinales y produce Café de cebada tostada. Shinguirito. Mate de coca.</p>
+                <a href="{{ route('infoDosm') }}" target="_blank">Ver paquetes</a>
             </div>
         </div>
         <div class="card">
@@ -132,22 +134,22 @@
             <div class="contenido-card">
                 <h3>Lauricocha</h3>
                 <p>Este destino es parte de la historia incaica, que se plasma en un monumento arqueológico impresionante. Además, cuenta con aguas termales con propiedades medicinales. </p>
-                <a href="#">Leer Más</a>
+                <p>En Lauricocha se encontraron restos del primer hombre que es considerado el hombre más antiguo del Perú, ya que se calcula tiene una antigüedad de 20,000 años a.C.</p>
+                <a href="{{ route('infolauricocha') }}" target="_blank">Ver paquetes</a>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-    
-
-
+    <footer>
+  <div class="social-media">
+    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+  </div>
+  <div class="links">
+    <a href="https://www.feandalucia.ccoo.es/docu/p5sd5402.pdf">Políticas</a>
+    <a href="https://publuu.com/flip-book/267582/628408">Guía turística</a>
+    <a href="https://w.app/CityTours">Contáctanos</a>
+  </div>
+</footer>
 </body>
-
 </html>

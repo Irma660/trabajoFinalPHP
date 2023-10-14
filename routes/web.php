@@ -19,5 +19,8 @@ Route::get('/reservas', function () {
     return view('reservas');
 });
 
-Route::view('/lugares', 'lugares')->name('DescubrirLugares');
+Route::view('/huanuco', 'huanuco')->name('infoHuanuco');
+Route::view('/tingo', 'tingo')->name('infoTingo');
+Route::view('/dosdemayo', 'dosdemayo')->name('infoDosm');
+Route::view('/lauricocha', 'lauricocha')->name('infolauricocha');
 Route::view('/reservas', 'reservas')->name('RealizarReserva');
