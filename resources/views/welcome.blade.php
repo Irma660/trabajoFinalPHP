@@ -47,8 +47,8 @@
                         <div class="image-description">PARQUE NACIONAL DE TINGO MARÍA</div>
                     </div>
                 </div>
-                <button id="prevBtn">Anterior</button>
-                <button id="nextBtn">Siguiente</button>
+                <img id="prevBtn" class="custom-button" src="{{ asset('img/arrow-left.png') }}" alt="Anterior">
+                <img id="nextBtn" class="custom-button" src="{{ asset('img/arrow-right.png') }}" alt="Siguiente">
             </div>
         </div>
         <div class="discover-more">

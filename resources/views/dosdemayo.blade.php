@@ -1,5 +1,5 @@
 <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width,
-    initial-scale=1.0"> <link rel="icon" href="iconos/mon.ico" /> <title>Dos de mayo</title> <!-- Incluye los estilos de
+    initial-scale=1.0"> <link rel="icon" href="iconos/mon.ico" /> <title>TOURS DOS DE MAYO</title> <!-- Incluye los estilos de
     Bootstrap --> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"> <style> <style> body {
     background-color: #fff; color: #333; position: relative; margin: 0; padding: 0; } header { background-color:
