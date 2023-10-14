@@ -16,7 +16,8 @@ class Compra extends Model
         'lugar',
         'numero_de_paquete',
         'fecha',
-        'numero_de_personas'
+        'numero_de_personas',
+        'precio'
     ];
 
 }

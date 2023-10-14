@@ -20,6 +20,7 @@ return new class extends Migration {
             $table->integer('numero_de_paquete');
             $table->date('fecha');
             $table->integer('numero_de_personas');
+            $table->decimal('precio', 8, 2);
             $table->timestamps();
         });
     }
