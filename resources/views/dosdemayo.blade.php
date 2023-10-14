@@ -1,8 +1,7 @@
 <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width,
-    initial-scale=1.0"> <title>Dos de mayo</title> <!-- Incluye los estilos de Bootstrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <link
-    rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"> <style>
- <style> body {
+    initial-scale=1.0"> <link rel="icon" href="iconos/mon.ico" /> <title>Dos de mayo</title> <!-- Incluye los estilos de
+    Bootstrap --> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"> <style> <style> body {
     background-color: #fff; color: #333; position: relative; margin: 0; padding: 0; } header { background-color:
     #00703e; color: #fff; text-align: center; padding: 20px; margin-top: 50px; /* Margen superior para bajar el
     encabezado */ } h1 { font-size: 2.5rem; } .container { max-width: 1000px; /* Contenedor más ancho */ margin: 0 auto;
@@ -77,7 +76,7 @@
                             Regreso a la Unión. City Tour La Unión: Visitaremos su histórico puente "Mariscal Cáceres",
                             mirador, iglesia, etc. Visitaremos las aguas termo medicinales de Tauripampa. Regreso a
                             Huánuco. </li>
-                            <li>Fin: 8:00 p.m.</li>
+                        <li>Fin: 8:00 p.m.</li>
                     </ul>
                     <p class="card-text"><strong>INCLUYE:</strong></p>
                     <ul>

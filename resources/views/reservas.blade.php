@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>reservas</title>
+    <link rel="icon" href="iconos/mon.ico" /><title>Reservas</title>
 </head>
 <body>
 <!DOCTYPE html>
