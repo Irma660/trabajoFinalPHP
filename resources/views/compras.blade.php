@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,8 +20,16 @@
         .btn-center {
             text-align: center;
         }
+
+        footer {
+            background-color: #00703e;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
     </style>
 </head>
+
 <body>
     <div class="container mt-5">
         <form action="/comprar" method="post">
@@ -47,7 +56,8 @@
             </div>
             <div class="form-group">
                 <label for="numero_de_paquete">Número de paquete</label>
-                <input type="number" class="form-control" id="numero_de_paquete" name="numero_de_paquete" placeholder="Número de paquete">
+                <input type="number" class="form-control" id="numero_de_paquete" name="numero_de_paquete"
+                    placeholder="Número de paquete">
             </div>
             <div class="form-group">
                 <label for="fecha">Fecha</label>
@@ -55,7 +65,8 @@
             </div>
             <div class="form-group">
                 <label for="numero_de_personas">Número de personas</label>
-                <input type="number" class="form-control" id="numero_de_personas" name="numero_de_personas" placeholder="Número de personas">
+                <input type="number" class="form-control" id="numero_de_personas" name="numero_de_personas"
+                    placeholder="Número de personas">
             </div>
             <div class="form-group">
                 <label for="precio">Precio</label>
@@ -71,5 +82,19 @@
             <button type="submit" class="btn btn-primary">Comprar</button>
         </form>
     </div>
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="links">
+            <a href="https://www.feandalucia.ccoo.es/docu/p5sd5402.pdf">Políticas</a>
+            <a href="https://publuu.com/flip-book/267582/628408">Guía turística</a>
+            <a href="https://w.app/CityTours">Contáctanos</a>
+        </div>
+        &copy; 2023 Huánuco - Explora y Descubre
+    </footer>
 </body>
+
 </html>

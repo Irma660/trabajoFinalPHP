@@ -1,75 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="iconos/mon.ico" /><title>Reservas</title>
-</head>
-<body>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Formulario de Registro</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="iconos/mon.ico" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Reservas</title>
 </head>
+
 <body>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .form-container {
-            background: #f0f0f0;
-            border: 1px solid #ccc;
-            padding: 20px;
-            width: 400px;
-        }
-        .input-container {
-            display: flex;
-            margin-bottom: 10px;
-        }
-        .input-container i {
-            margin-right: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="form-container">
-        <h1>Formulario de Registro</h1>
-        <form action="procesar_registro.php" method="POST">
-            <div class="input-container">
-                <i class="fas fa-user"></i>
-                <input type="text" id="nombre_titular" name="nombre_titular" placeholder="Nombre del Titular" required>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h1 class="text-center">Formulario de Registro</h1>
+                    </div>
+                    <div class="card-body">
+                        <form action="procesar_registro.php" method="POST">
+                            <div class="form-group">
+                                <label for="nombre_titular">Nombre del Titular</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="nombre_titular" name="nombre_titular" placeholder="Nombre del Titular" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="telefono">Teléfono</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                    </div>
+                                    <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Teléfono" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="dni">DNI</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-id-card"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="dni" name="dni" placeholder="DNI" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="num_personas">Número de Personas</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-users"></i></span>
+                                    </div>
+                                    <input type="number" class="form-control" id="num_personas" name="num_personas" placeholder="Número de Personas" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                    </div>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Correo Electrónico" required>
+                                </div>
+                            </div>
+
+                            <!-- Rest of the form -->
+
+                            <button type="submit" class="btn btn-primary">Registrarse</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-
-            <div class="input-container">
-                <i class="fas fa-phone"></i>
-                <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
-            </div>
-
-            <div class="input-container">
-                <i class="fas fa-id-card"></i>
-                <input type="text" id="dni" name="dni" placeholder="DNI" required>
-            </div>
-
-            <div class="input-container">
-                <i class="fas fa-users"></i>
-                <input type="number" id="num_personas" name="num_personas" placeholder="Número de Personas" required>
-            </div>
-
-            <div class="input-container">
-                <i class="fas fa-envelope"></i>
-                <input type="email" id="email" name="email" placeholder="Correo Electrónico" required>
-            </div>
-
-            <!-- Resto del formulario -->
-
-            <input type="submit" value="Registrarse">
-        </form>
+        </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
+
 </html>
